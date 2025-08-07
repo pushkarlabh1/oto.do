@@ -69,7 +69,7 @@ function IntegrationCard({ Icon, title, description, tag }: IntegrationCardProps
           )}
         </div>
         <div className="space-y-2">
-          <CardTitle className="text-2xl font-bold">{title}</CardTitle>
+          <CardTitle className="text-3xl font-bold">{title}</CardTitle>
           <CardDescription className="text-base font-medium text-muted-foreground !mt-1 text-left">
             {description}
           </CardDescription>
