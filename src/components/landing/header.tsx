@@ -7,15 +7,15 @@ import Link from 'next/link';
 
 export function Header() {
   return (
-    <header className="py-4 px-4 sm:px-6 lg:px-8 bg-white sticky top-0 z-40 border-b">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="py-4 bg-white sticky top-0 z-40 border-b">
+      <div className="mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="text-2xl font-bold text-primary">
           oto.do
         </Link>
         
-        <nav className="hidden md:flex items-center gap-3" >
-          <Button variant="ghost">Login</Button>
-          <Button>Sign Up</Button>
+        <nav className="hidden md:flex items-center gap-3 " >
+          <Button variant="ghost" className="hover:font-bold">Login</Button>
+          <Button className="hover:font-bold" >Sign Up</Button>
         </nav>
 
         <div className="md:hidden">
