@@ -19,7 +19,7 @@ export default {
       fontFamily: {
         body: ['Poppins'],
         headline: ['Poppins'],
-        code: ['monospace'],
+        code: ['Poppins'],
       },
       colors: {
         background: 'hsl(var(--background))',
